@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6c94f"/><stop offset="1" stop-color="#d99a1b"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9a3"/><stop offset="0.55" stop-color="#f7cf5a"/><stop offset="1" stop-color="#e8a92a"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e6edf5"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0.5" cy="0.75" r="0.75">
+      <stop offset="0" stop-color="#7ec3ff"/><stop offset="0.6" stop-color="#1f74d1"/><stop offset="1" stop-color="#0b3f8f"/>
+    </radialGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <path d="M22 58 q0-12 12-12 h58 q8 0 13 7 l10 13 h107 q12 0 12 12 v118 q0 12-12 12 H34 q-12 0-12-12 z" fill="url(#back)" stroke="#a8700e" stroke-width="3"/>
+  <rect x="40" y="70" width="172" height="110" rx="4" fill="url(#paper)" stroke="#9aa9bb" stroke-width="2" transform="rotate(-4 126 125)"/>
+  <rect x="50" y="78" width="164" height="104" rx="4" fill="#ffffff" stroke="#9aa9bb" stroke-width="2" transform="rotate(3 132 130)"/>
+  <path d="M14 104 q-2-12 10-12 h208 q12 0 10 12 l-12 92 q-2 12-14 12 H40 q-12 0-14-12 z" fill="url(#front)" stroke="#a8700e" stroke-width="3"/>
+  <path d="M26 100 h204" stroke="#fff6d6" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="186" cy="182" r="52" fill="url(#orb)" stroke="#0a3474" stroke-width="3"/>
+  <ellipse cx="186" cy="156" rx="38" ry="22" fill="url(#gloss)"/>
+  <path d="M160 182 h40 m-16-18 l18 18 l-18 18" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
